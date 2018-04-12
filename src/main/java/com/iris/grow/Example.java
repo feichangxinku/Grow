@@ -1,9 +1,9 @@
-package main.scala.spark;
+package com.iris.grow;
 
-/**
- * 别人调用你的服务
- */
-public class BieRendechengxu {
+import com.iris.grow.evaluator.IModuleEvaluator;
+import com.iris.grow.evaluator.ModuleEvaluatorImpl;
+
+public class Example {
     public static void main(String[] args) {
         Request request = new Request();
         request.setModuleType("front");

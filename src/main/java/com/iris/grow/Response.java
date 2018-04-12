@@ -1,4 +1,4 @@
-package main.scala.spark;
+package com.iris.grow;
 
 public class Response {
     private String skill1Score;
