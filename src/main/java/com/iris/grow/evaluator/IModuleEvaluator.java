@@ -1,9 +1,10 @@
 package com.iris.grow.evaluator;
 
-import com.iris.grow.Request;
-import com.iris.grow.Response;
+import com.iris.grow.Item;
+import com.iris.grow.Score;
 
 public interface IModuleEvaluator {
-    //function1是第一个功能的接口
-    Response getSkill1(Request request);
+    Score getSkill1(Item item);
+    Score getSkill2(Item item);
+    Score getSkill3(Item item);
 }
