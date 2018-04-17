@@ -5,10 +5,10 @@ import com.iris.grow.evaluator.ModuleEvaluatorImpl;
 
 public class Example {
     public static void main(String[] args) {
-        Request request = new Request();
-        request.setModuleType("front");
+        Item item = new Item();
+        item.setModuleType("front");
         IModuleEvaluator moduleEvaluator = new ModuleEvaluatorImpl();
-        Response response = moduleEvaluator.getSkill1(request);
-        System.out.println(response.getSkill1Score());
+        Score score = moduleEvaluator.getSkill1(item);
+        System.out.println(score.getSkill1Score());
     }
 }
